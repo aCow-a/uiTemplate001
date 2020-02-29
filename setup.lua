@@ -8,9 +8,5 @@ return function()
   local frame = Instance.new("Frame", screenGui)
   frame.Size = Udim2.new(0, 200, 0, 300)
   
-  
-  local part = Instance.new("Part", workspace)
-  table.insert(main.ui, part)
-  
   print("finished setup")
 end
