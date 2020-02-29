@@ -1,1 +1,3 @@
-print(1)
+return function()
+  print(1)
+end
