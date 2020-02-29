@@ -1,6 +1,4 @@
 return function()
-  main = _G["hud"..tostring(_G.hudCode)].main
-  
   for _, v in pairs(main.events) do
     v:Disconnect()
   end
