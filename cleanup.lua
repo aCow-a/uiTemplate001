@@ -1,11 +1,11 @@
 return function()
-  if main.events and typeof(main.events) == "table" then
+  if main.events then
     for _, v in pairs(main.events) do
       v:Disconnect()
     end
   end
   
-  if main.ui and typeof(main.ui) == "table" then
+  if main.ui then
     for _, v in pairs(main.ui) do
       v:Destroy()
     end
