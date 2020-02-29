@@ -1,1 +1,1 @@
-print(1)
+return print(1)
